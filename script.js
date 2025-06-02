@@ -132,7 +132,7 @@ function create() {
         link.download = `editor_${exName[0]}`;
 
         link.click();
-    }, `image/jpeg`, 1.0);
+    }, `image/${exName[1]}`, 1.0);
 
 }
 
